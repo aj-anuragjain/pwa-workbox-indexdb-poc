@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1583653185994,
+    "title": "Anurag",
+    "date": "1993-11-24",
+    "city": "Delhi",
+    "note": "Indexdb save test from add form"
+  },
+  {
+    "id": 1583654184626,
+    "title": "title",
+    "date": "1993-04-22",
+    "city": "dekhi",
+    "note": "notes "
+  },
+  {
+    "id": 1583655361621,
+    "title": "test add via form",
+    "date": "1993-11-24",
+    "city": "delhi",
+    "note": "add an event test"
+  }
+]

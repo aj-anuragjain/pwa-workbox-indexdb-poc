@@ -1,0 +1,21 @@
+{
+  "name": "pwa-poc",
+  "version": "1.0.0",
+  "description": "poc for learning pwa with workbox",
+  "main": "index.js",
+  "scripts": {
+    "copy": "copyfiles -u 1 src/**/**/* src/**/* src/* build",
+    "build": "npm run copy && workbox injectManifest workbox-config.js",
+    "start": "node server.js"
+  },
+  "author": "Anurag Jain",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "copyfiles": "^1.2.0",
+    "workbox-cli": "^3.5.0"
+  }
+}
